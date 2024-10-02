@@ -9,6 +9,18 @@ set2 = {'apple', 'banana', 'cherry'}  # set of strings
 set3 = {1, 2, 3, 'apple', 'banana'}  # mixed set
 set4 = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5}  # duplicate elements are removed
 
+#access elements in a set
+
+# add elements to a set
+
+#remove elements from a set
+
+#check if an element is in a set
+
+#find the length of a set
+
+#clear a set
+
 
 #tuples##################################
 # Tuples are ordered collections of elements
@@ -19,6 +31,19 @@ tuple1 = (1, 2, 3, 4, 5)  # tuple of integers
 tuple2 = ('apple', 'banana', 'cherry')  # tuple of strings
 tuple3 = (1, 2, 3, 'apple', 'banana')  # mixed tuple
 tuple4 = (1, 2, 3, 4, 5, 1, 2, 3, 4, 5)  # duplicate elements are allowed
+
+#access elements in a tuple
+
+#find the length of a tuple
+
+#count the number of occurrences of an element in a tuple
+
+#find the index of an element in a tuple
+
+#convert a tuple to a list
+
+#convert a list to a tuple
+
 
 
 
@@ -56,6 +81,9 @@ and you may call me V."""
 # Define the dictionary
 
 sample_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# get length of the list
+print(len(sample_list)) # Output: 3
+#this is called a nested list
 # Extract and print the second element from the first list
 
 sample_list_of_fruit = {"fruits": ["apple", "banana", "cherry"]}
